@@ -4,7 +4,7 @@
 
 ----
 ## install
-1. Run `npm install` from the project root directory
+Run `npm install` from the project root directory
 
 ----
 ## database setup
