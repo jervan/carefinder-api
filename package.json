@@ -1,0 +1,21 @@
+{
+  "name": "carefinder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=development nodemon",
+    "debug": "DEBUG=* npm run dev"
+  },
+  "dependencies": {
+    "apikeygen": "^0.2.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.2",
+    "helmet": "^3.9.0",
+    "mongoose": "^4.12.3",
+    "nodemon": "^1.12.1"
+  }
+}
